@@ -1,0 +1,28 @@
+.main-box {
+    /*background-color: #3ABEF9;*/
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(9,9,121,1) 24%, rgba(0,212,255,1) 79%);
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.box {
+    width: 250px;
+    height: 200px;
+    background-color: #050C9C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid white;
+}
+.box:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+p {
+    color: white;
+}

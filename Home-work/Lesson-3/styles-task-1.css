@@ -1,0 +1,18 @@
+.main-box {
+    background-color: lightgrey;
+    height: 800px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+.box:hover {
+    background-color: black;
+    transition: 1s;
+    border-radius: 50%;
+}
