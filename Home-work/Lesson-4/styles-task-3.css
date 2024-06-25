@@ -1,0 +1,27 @@
+div {
+    height: 100vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#section-1 {
+    background-color: cornflowerblue;
+}
+#section-2 {
+    background-color: pink;
+}
+#section-3 {
+    background-color: coral;
+}
+.navigate {
+    color: white;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+}
+html    {
+    scroll-behavior: smooth;
+}
