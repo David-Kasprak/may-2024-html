@@ -5,10 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-image: url("img/background.png");
-    background-size: cover;
-}
 /*--------------SECTION TOP----------------------*/
 .section-top {
     height: 100vh;
@@ -16,6 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "KoHo", sans-serif;
+    background-image: url("img/background.png");
+    background-size: cover;
 }
 .flex {
     width: 1058.4px;
@@ -63,3 +61,103 @@ body {
     line-height: normal;
 }
 /*--------------SECTION MID----------------------*/
+.section-mid {
+    height: 100vh;
+    background-image: url("img/background-1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "KoHo", sans-serif;
+}
+.flex-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-mid iframe {
+    margin-bottom: 70px;
+}
+.text-mid {
+    width: 949px;
+    height: 183px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*--------------SECTION BOT----------------------*/
+.section-bot {
+    height: 100vh;
+    background-image: url("img/background-1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "KoHo", sans-serif;
+}
+.flex-bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 44px;
+}
+.flex-bot div {
+    width: 454px;
+    height: 800px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 25px 104px 25px;
+}
+.flex-bot div img {
+    margin-bottom: 32px;
+    width: 408px;
+    height: 214px;
+    flex-shrink: 0;
+}
+.flex-bot div h4 {
+    margin-bottom: 24px;
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.flex-bot div p {
+    margin-bottom: 62px;
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.flex-bot .price {
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.flex-bot button {
+    width: 409px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #6B6666;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
