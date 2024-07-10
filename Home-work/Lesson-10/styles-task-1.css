@@ -1,0 +1,18 @@
+.first ul>li:nth-child(even) {
+    color: pink;
+}
+.second ul>li:nth-child(odd) {
+    font-size: 22px;
+}
+/*Don't know how to complete this one properly*/
+.third ul>li:nth-child(even):after{
+    content: "!";
+}
+/*----------------------------------------------*/
+.fourth ul>li:nth-last-child(1) {
+    color: purple;
+}
+.fifth ul>li::first-letter {
+    font-size: 30px;
+    color: red;
+}
