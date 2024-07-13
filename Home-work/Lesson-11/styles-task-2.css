@@ -27,6 +27,7 @@ header {
     align-items: flex-end;
     gap: 34px;
     margin-bottom: 108px;
+    animation: header 0.3s linear 1;
 }
 header>div {
     display: flex;
@@ -45,6 +46,7 @@ main>img {
     width: 761px;
     height: 432px;
     flex-shrink: 0;
+    animation: img 1s linear 1;
 }
 main>h2 {
     margin-bottom: 54px;
@@ -58,6 +60,7 @@ main>h2 {
     font-weight: 700;
     line-height: 96px; /* 100% */
     letter-spacing: -1.44px;
+    animation: text 1s linear 1;
 }
 main>p {
     display: flex;
@@ -74,4 +77,44 @@ main>p {
     line-height: 28px; /* 129.855% */
     letter-spacing: 0.216px;
     margin-bottom: 94px;
+    animation: text 1s linear 1;
+}
+@keyframes header {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 100;
+    }
+}
+@keyframes img {
+    0% {
+        transform: scale(1.2) translateY(-50px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1) translateY(0px);
+        opacity: 100;
+    }
+}
+@keyframes text {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 100;
+    }
 }
