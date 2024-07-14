@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1dddd;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table {
+    text-align: left;
+    width: 70vw;
+    height: 35vh;
+}
+h1  {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+thead {
+    background-color: #249c34;
+    color: white;
+}
+tr {
+    height: 40px;
+}
+tbody>tr:nth-child(odd) {
+background-color: #e1dddd;
+}
+tbody>tr:nth-child(even) {
+    background-color: white;
+}
+thead span {
+    margin-left: 10px;
+}
+tbody span {
+    margin-left: 10px;
+}
+
+/*----- HOW TO GET RID OF THE GAPS WITHIN THE TABLE? -----*/
