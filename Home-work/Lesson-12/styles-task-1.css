@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border: 1px solid black;
+    text-align: center;
+    width: 50vw;
+    height: 50vh;
+}
+thead {
+    font-size: 30px;
+}
+tbody>tr>td {
+    border: 1px solid black;
+    width: 33%;
+}
+.blue {
+    background-color: blue;
+    /*width: 33%;*/
+}
+.black {
+background-color: black;
+}
+.red {
+    background-color: red;
+}
+.grey   {
+    background-color: grey;
+}
+.green {
+    background-color: green;
+}
