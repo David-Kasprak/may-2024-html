@@ -1,22 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .wrap {
-    width: 1110px;
+    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: #F7F6F4;;
+    margin: 0 auto;
 }
+/*-------------------------- NAVIGATION ---------------------------------*/
 nav {
     width: 1110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-nav img {
-    margin-left: 180px;
+    margin-top: 42px;
+    color: #333;
+    font-family: Taviraj;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
 }
 nav ul {
     display: flex;
@@ -28,6 +38,10 @@ nav ul {
 ul {
     list-style: none;
 }
+a {
+    text-decoration: none;
+    color: #333333;
+}
 .dropdown-content {
     padding: 10px 10px;
     display: none;
@@ -36,6 +50,153 @@ ul {
     flex-direction: column;
     position: absolute;
 }
-nav ul:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
+}
+/*-------------------------- HERO SECTION ---------------------------------*/
+.hero-section {
+    margin-top: 90px;
+    width: 1110px;
+    height: 505px;
+    flex-shrink: 0;
+    background: #F1DDC9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.watch-box {
+    width: 325px;
+    flex-shrink: 0;
+}
+.text-box {
+    width: 700px;
+}
+.text-box h3 {
+    color: #333;
+    font-family: Taviraj;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+    margin-bottom: 32px;
+}
+.text-box p {
+    width: 529px;
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 80px;
+}
+.text-box button {
+    width: 208px;
+    height: 62px;
+    flex-shrink: 0;
+    background: #D84727;
+    color: #FFF;
+    font-family: Taviraj;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+/*-------------------------- MONTHLY DEALS SECTION ---------------------------------*/
+.gallery {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 130px;
+}
+.monthly-deals-title {
+    margin-top: 80px;
+    align-self: start;
+    margin-left: 11vw;
+    color: #333;
+    font-family: Taviraj;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+.gallery div {
+    width: 255px;
+    height: 278px;
+    flex-shrink: 0;
+    background: #FFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gallery div img {
+    position: absolute;
+    top: -30px;
+}
+.gallery div p{
+    margin-top: 80%;
+    color: #333;
+    font-family: Taviraj;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
+/*-------------------------- RECENT NEWS SECTION ---------------------------------*/
+.bottom {
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+.left p {
+    width: 163px;
+    color: #777;
+    font-family: Taviraj;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.left h3 {
+    width: 350px;
+    color: #333;
+    font-family: Taviraj;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+}
+.recent-news-title {
+    margin-top: 132px;
+    align-self: start;
+    margin-left: 8vw;
+    color: #333;
+    font-family: Taviraj;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+.right img  {
+    margin-right: 100px;
 }
