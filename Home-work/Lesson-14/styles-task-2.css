@@ -9,6 +9,7 @@ body {
     background: #24204A;
     color: white;
     margin: 0 auto;
+    font-family: Inter, sans-serif;
 }
 /*--------------------- HEADER ------------------------*/
 header {
@@ -25,12 +26,33 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+nav a {
+    text-decoration: none;
+    color: #E5E5E5;
+
+;
+}
 ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 65px;
     list-style: none;
+}
+nav h3 {
+    color: #E5E5E5;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+nav ul li {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 /*--------------------- HERO SECTION ------------------------*/
 .hero-section {
@@ -45,7 +67,7 @@ ul {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 32px;
 }
@@ -73,6 +95,53 @@ ul {
     margin-left: 12px;
     width: 318px;
     height: 318px;
+}
+.one-position {
+    width: 145px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #4B4864;
+    color: #8E88C1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+}
+.left h2 {
+    width: 573px;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+.left p {
+    width: 570px;
+    height: 85px;
+    flex-shrink: 0;
+    color: #8E88C1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+}
+.about-button {
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0px 6px 20px 0px rgba(0, 255, 224, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 /*--------------------- MIDDLE SECTION ------------------------*/
 /*                                        ---- TOP ----*/
@@ -194,3 +263,23 @@ ul {
     letter-spacing: 0.8px;
 }
 /*--------------------- MAP SECTION ------------------------*/
+.map {
+    width: 100%;
+}
+/*--------------------- FOOTER ------------------------*/
+footer  {
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    width: 96px;
+    height: 24.039px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+}
