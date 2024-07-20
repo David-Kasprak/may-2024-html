@@ -3,3 +3,194 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    width: 1400px;
+    height: 2214px;
+    background: #24204A;
+    color: white;
+    margin: 0 auto;
+}
+/*--------------------- HEADER ------------------------*/
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    list-style: none;
+}
+/*--------------------- HERO SECTION ------------------------*/
+.hero-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.one-position-heading {
+    margin-bottom: -30px;
+}
+.right div {
+    width: 375px;
+    height: 411px;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right div img  {
+    margin-left: 12px;
+    width: 318px;
+    height: 318px;
+}
+/*--------------------- MIDDLE SECTION ------------------------*/
+/*                                        ---- TOP ----*/
+.mid-section {
+    width: 1400px;
+    height: 764px;
+    background: #071341;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.top {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 75px;
+    margin-bottom: 75px;
+    padding: 0 115px;
+}
+.wrap-sun {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.sun-icon-box {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF6853;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-sun-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.first {
+    background: #FF6853;
+}
+.second {
+    background: #FF537C;
+}
+.third {
+    background: #80D2C4;
+}
+.fourth {
+    background: #3F50E7;
+}
+.fifth {
+    background: #95CB7C;
+}
+/*                                        ---- MID ----*/
+.mid {
+    width: 100%;
+    margin-bottom: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mid h3 {
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+    margin-bottom: 15px;
+}
+.mid p {
+    color: var(--1, #8E88C1);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+/*                                        ---- BOT ----*/
+.bot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 114px;
+}
+.bot div {
+    width: 209px;
+    height: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 8px;
+    border: 2px solid var(--1, #8E88C1);
+}
+.bot div p {
+    width: 178px;
+    color: var(--1, #8E88C1);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+}
+/*--------------------- MAP SECTION ------------------------*/
