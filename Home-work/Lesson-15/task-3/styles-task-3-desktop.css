@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+/*----------------------- HEADER --------------------------*/
+header  {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+header div {
+    background-color: #758ec1;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/*----------------------- BANNER SECTION --------------------------*/
+.banner {
+    height: 30vh;
+    background-color: #758ec1;
+    margin-bottom: 10px;
+}
+/*----------------------- ARTICLE SECTION --------------------------*/
+.article {
+    height: 30vh;
+}
+.flex {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.flex div {
+    width: 49%;
+    height: 100%;
+    background-color: #758ec1;
+    margin-bottom: 10px;
+}
+/*----------------------- FOOTER --------------------------*/
+footer  {
+    margin-top: 30px;
+    height: 20vh;
+    background-color: #758ec1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
