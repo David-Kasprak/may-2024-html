@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px)
+{
+    header {
+        height: 20vh;
+    }
+    .flex {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .b {
+        height: 60vh;
+        width: 100vw;
+        margin-right: 0;
+        margin-bottom: 10px;
+
+    }
+    .c {
+        width: 100vw;
+        height: 20vh;
+    }
+}
