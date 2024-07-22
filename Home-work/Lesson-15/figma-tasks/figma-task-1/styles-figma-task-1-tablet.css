@@ -1,0 +1,13 @@
+@media screen and (min-width: 480px) and (max-width: 1280px) {
+.flex div {
+    width: 50%;
+}
+    .flex {
+        flex-wrap: wrap;
+    }
+    .flex div p {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

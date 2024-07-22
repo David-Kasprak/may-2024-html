@@ -1,0 +1,8 @@
+@media screen and (max-width: 480px) {
+    .flex div {
+        width: 100%;
+    }
+    .flex {
+        flex-wrap: wrap;
+    }
+}
