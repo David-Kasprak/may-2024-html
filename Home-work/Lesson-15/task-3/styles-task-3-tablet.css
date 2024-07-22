@@ -1,0 +1,11 @@
+@media screen and (min-width: 480px) and (max-width: 1280px) {
+.flex div {
+    width: 23%;
+}
+    .flex {
+        height: 100%;
+    }
+    .flex div p {
+        transform: rotate(-90deg);
+    }
+}
