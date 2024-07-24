@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px) {
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    'a a'
+    'c b'
+    'd e'
+    'f f'
+    'g g';
+}
+}
