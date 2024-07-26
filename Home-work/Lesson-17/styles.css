@@ -64,3 +64,25 @@
 .team-member-bio p {
     width: 40vw;
 }
+/*----------------------- CONTACTS PAGE -------------------------*/
+.contacts-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contacts-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+/*----------------------- BLOG PAGE -------------------------*/
+
+
