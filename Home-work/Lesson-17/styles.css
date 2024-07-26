@@ -13,7 +13,54 @@
     flex-wrap: wrap;
     gap: 50px;
 }
-.card {
-    width: 33.33%;
-    height: 30%;
+.products-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*----------------------- ABOUT US PAGE -------------------------*/
+.about-us-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.team-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.about-us-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.team-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-member img {
+    width: 700px;
+}
+.team-member-bio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.team-member-bio p {
+    width: 40vw;
 }
