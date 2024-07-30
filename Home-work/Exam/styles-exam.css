@@ -23,6 +23,7 @@ ul {
 }
 a {
     text-decoration: none;
+    color: #FFF;
 }
 /*------------------------------ HEADER --------------------------------*/
 header {
@@ -482,3 +483,154 @@ text-transform: uppercase;
     text-transform: capitalize;
 }
 /*<!------------------------ TESTIMONIAL SECTION ------------------------------>*/
+.testimonial-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 208px;
+}
+.testimonial-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+}
+.testimonial-section h3:nth-of-type(1) {
+    color: #5BD2BF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.testimonial-section h3:nth-of-type(2) {
+    width: 500px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 148px;
+}
+.testimonial-flex div {
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial-flex div img {
+    position: absolute;
+    top: -75px;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    border-radius: 50%;
+}
+.testimonial-flex div p:nth-of-type(1) {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.testimonial-flex div p:nth-of-type(2) {
+    width: 302px;
+    margin-top: 28px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/*<!------------------------ BUY NOW SECTION ------------------------------>*/
+.buy-now-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 262px;
+}
+.buy-now-flex {
+    width: 1063px;
+    height: 378px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+}
+.buy-now-flex p {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+}
+.buy-now-flex div {
+margin-top: 24px;
+}
+.buy-now-flex button {
+    width: 344px;
+    height: 85px;
+    margin-top: 40px;
+    border-radius: 50px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+/*<!------------------------ FOOTER ------------------------------>*/
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 126px;
+}
+.footer-flex h1 {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 1px;
+    text-transform: capitalize;
+}
+.footer-flex div ul li:nth-child(1) {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
