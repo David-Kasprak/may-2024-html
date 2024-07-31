@@ -34,6 +34,8 @@ header {
 }
 header svg {
     position: absolute;
+    top: 0;
+    z-index: 0;
 }
 header nav {
     display: flex;
@@ -51,6 +53,7 @@ nav h1 {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    z-index: 1;
 }
 nav ul {
     display: flex;
@@ -67,6 +70,7 @@ nav ul {
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+    z-index: 1;
 }
 nav ul li a {
     color: #FFF;
@@ -633,4 +637,73 @@ footer {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+}
+.footer-flex div ul li {
+    margin-bottom: 22px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+#input-email {
+    width: 253px;
+    height: 60px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    background: #3B7C70;
+}
+/*#input-button {*/
+/*    width: 100px;*/
+/*    height: 58px;*/
+/*    border-radius: 50px;*/
+/*    background: #262E48;*/
+/*    border: 1px solid #3B7C70;*/
+/*}*/
+.input-flex button {
+    width: 100px;
+    height: 58px;
+    border-radius: 50px;
+    background: #262E48;
+    border: 1px solid #3B7C70;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+#input-email::placeholder {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+.input-flex {
+    position: relative;
+}
+.form-flex>label {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
